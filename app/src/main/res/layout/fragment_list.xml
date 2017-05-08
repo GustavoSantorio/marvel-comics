@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/lv_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_carregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignBottom="@+id/lv_list"
+        android:visibility="gone"
+        android:padding="10dp"
+        android:text="Carregar mais"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:background="@color/colorRed"/>
+
+</RelativeLayout>
